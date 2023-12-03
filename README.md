@@ -19,4 +19,5 @@ You can also call `des.get_padding()` to get zero padding bits.
 
 ## Notes
 
-Message contains Chinese characters are NOT supported due to Unicode encoding.
+- Message contains Chinese characters are **NOT** supported due to Unicode encoding.
+- This program prioritizes presenting the implementation methods in a clearer manner rather than focusing on performance.
