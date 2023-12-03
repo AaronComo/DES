@@ -11,8 +11,8 @@ from keygen.KeyGenerator import KeyGenerator
 des = DES()
 msg = "Your text here."
 key = KeyGenerator().keygen()
-M = des.encrypt(msg, key)
-C = des.decrypt(M, key)
+C = des.encrypt(msg, key)
+M = des.decrypt(C, key)
 ~~~
 
 You can also call `des.get_padding()` to get zero padding bits.
