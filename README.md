@@ -2,7 +2,7 @@
 
 ## Usage
 
-Encrypt or decrypt a message.
+Encrypt or decrypt a message using DES algorithm.
 
 ~~~python
 from DES.DES import DES
